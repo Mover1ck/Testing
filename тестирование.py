@@ -48,7 +48,7 @@ def is_pal(st):  # проверка на палиндром
             result = False
     return result
 
-class TestFunctions(unittest.TestCase):
+class TestFunctions(unittest.TestCase):  # Тестирующий класс
     def test_factorial(self):
         with self.assertRaises(ValueError):
             my_factorial(2.5)
